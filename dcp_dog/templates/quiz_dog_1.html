@@ -85,9 +85,9 @@ function playSound(id, loop, offset) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="preloader">
+	{% comment %} <div id="preloader">
 		<div id="status"><img src="{% static 'images/Loading_icon.gif' %}"/></div>
-	</div>
+	</div> {% endcomment %}
 
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1920px; height:1080px">
 		<canvas id="canvas" width="1920" height="1080" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
