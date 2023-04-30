@@ -454,14 +454,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
 
-(lib.橢圓1 = function() {
-	this.initialize(img.橢圓1);
+(lib.oval = function() {
+	this.initialize(img.oval);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2480,3508);
 
 
-(lib.沙灘影像 = function() {
-	this.initialize(img.沙灘影像);
+(lib.beach = function() {
+	this.initialize(img.beach);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4001,1419);
 
@@ -473,8 +473,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,4001,1419);
 
 
 
-(lib.海影像 = function() {
-	this.initialize(img.海影像);
+(lib.ocean = function() {
+	this.initialize(img.ocean);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4001,929);
 
@@ -486,8 +486,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,4001,929);
 
 
 
-(lib.海星影像 = function() {
-	this.initialize(img.海星影像);
+(lib.starfish = function() {
+	this.initialize(img.starfish);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3514,316);
 
@@ -569,13 +569,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,3514,316);
 
 
 
-(lib.貝殼影像 = function() {
-	this.initialize(img.貝殼影像);
+(lib.shell = function() {
+	this.initialize(img.shell);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2810,259);
 
 
-(lib.貝殼海星影像 = function() {
+(lib.貝殼starfish = function() {
 	this.initialize(ss["quiz_dog_1_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -747,7 +747,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(-522.3,-738.8,0.4212,0.4212);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -770,7 +770,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(-401.45,-567.85,0.3237,0.3237);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -2136,10 +2136,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(64).call(this.frame_64).wait(86));
 
 	// whitelight2
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(131,1154.85,0.4697,0.4697,-90);
 
-	this.instance_1 = new lib.橢圓1();
+	this.instance_1 = new lib.oval();
 	this.instance_1.setTransform(-97,-83,0.8297,0.356);
 
 	this.shape = new cjs.Shape();
@@ -2165,10 +2165,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{scaleX:0.4697,scaleY:0.4697,x:131,y:1154.85,rotation:-90}}]},127).to({state:[{t:this.instance_1,p:{scaleX:0.8297,scaleY:0.356,rotation:0,x:-97,y:-83}},{t:this.instance,p:{scaleX:0.446,scaleY:1,x:-756,y:1119.1,rotation:-90}}]},4).to({state:[{t:this.instance_1,p:{scaleX:0.8128,scaleY:0.2805,rotation:0.2618,x:-67.5,y:86}},{t:this.instance,p:{scaleX:0.4734,scaleY:1.184,x:-1161,y:1140.05,rotation:-90}}]},1).to({state:[{t:this.shape},{t:this.instance,p:{scaleX:0.428,scaleY:0.5762,x:54.8,y:1132.6,rotation:-89.4674}}]},1).to({state:[{t:this.instance,p:{scaleX:0.428,scaleY:0.5762,x:54.8,y:1132.6,rotation:-89.4674}},{t:this.shape_1}]},6).to({state:[{t:this.instance,p:{scaleX:0.428,scaleY:0.5762,x:54.8,y:1132.6,rotation:-89.4674}},{t:this.shape_2}]},2).to({state:[{t:this.instance,p:{scaleX:0.428,scaleY:0.5762,x:54.8,y:1132.6,rotation:-89.4674}},{t:this.shape_3}]},2).to({state:[{t:this.instance,p:{scaleX:0.428,scaleY:0.5762,x:54.8,y:1132.6,rotation:-89.4674}},{t:this.shape_4}]},3).to({state:[]},1).wait(3));
 
 	// whitelight
-	this.instance_2 = new lib.橢圓1();
+	this.instance_2 = new lib.oval();
 	this.instance_2.setTransform(131,1154.85,0.4697,0.4697,-90);
 
-	this.instance_3 = new lib.橢圓1();
+	this.instance_3 = new lib.oval();
 	this.instance_3.setTransform(-97,-83,0.8297,0.356);
 
 	this.shape_5 = new cjs.Shape();
@@ -2296,7 +2296,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_21 = new lib.CachedBmp_323();
 	this.instance_21.setTransform(488.15,229.35,0.5,0.5);
 
-	this.instance_22 = new lib.貝殼海星影像();
+	this.instance_22 = new lib.貝殼starfish();
 	this.instance_22.setTransform(98,178);
 
 	this.instance_23 = new lib.footprint_m();
@@ -2523,7 +2523,7 @@ if (reversed == null) { reversed = false; }
 		});
 		
 		_this.home_btn.on('click', function(){
-			location.href="/dcp_dog/";
+			location.href="https://dcp-test.vercel.app/";
 		});
 		
 		_this.back_quiz_btn.on('click', function(){
@@ -2588,7 +2588,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(343).to({_off:false},0).wait(1).to({x:336.75},0).wait(1).to({x:341.4},0).wait(1).to({x:346.05},0).wait(1).to({x:350.7},0).wait(1).to({x:355.35},0).wait(1).to({x:360},0).wait(1).to({x:364.65},0).wait(1).to({x:369.3},0).wait(1).to({x:373.95},0).wait(1).to({x:378.6},0).wait(1).to({x:383.3},0).wait(1).to({x:408.25},0).wait(1).to({x:433.2},0).wait(1).to({x:458.15},0).wait(1).to({x:483.1},0).wait(1).to({x:508.1},0).wait(1).to({x:533.05},0).wait(1).to({x:558},0).wait(1).to({x:582.95},0).wait(1).to({x:607.9},0).wait(1).to({x:632.9},0).wait(1).to({x:639.3},0).wait(1).to({x:645.7},0).wait(1).to({x:652.1},0).wait(1).to({x:658.5},0).wait(1).to({x:664.9},0).wait(1).to({x:671.3},0).wait(1).to({x:677.7},0).wait(1).to({x:684.1},0).wait(1).to({x:690.5},0).wait(1).to({x:696.9},0).wait(1).to({x:703.3},0).wait(1).to({x:709.7},0).wait(1).to({x:716.1},0).to({_off:true},1).wait(1));
 
 	// turn
-	this.instance_5 = new lib.橢圓1();
+	this.instance_5 = new lib.oval();
 	this.instance_5.setTransform(-794,1657,1,1,-90);
 	this.instance_5._off = true;
 
@@ -2610,7 +2610,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.CachedBmp_308();
 	this.instance_7.setTransform(0.05,0.05,0.5,0.5);
 
-	this.instance_8 = new lib.橢圓1();
+	this.instance_8 = new lib.oval();
 	this.instance_8.setTransform(-794,1657,1,1,-90);
 
 	this.instance_9 = new lib.CachedBmp_309();
@@ -2633,7 +2633,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_12 = new lib.CachedBmp_311();
 	this.instance_12.setTransform(0.05,0.05,0.5,0.5);
 
-	this.instance_13 = new lib.橢圓1();
+	this.instance_13 = new lib.oval();
 	this.instance_13.setTransform(-794,1657,1,1,-90);
 
 	this.shape_4 = new cjs.Shape();
@@ -2807,22 +2807,22 @@ if (reversed == null) { reversed = false; }
 	this.instance_22 = new lib.CachedBmp_314();
 	this.instance_22.setTransform(756,352.35,0.5,0.5);
 
-	this.instance_23 = new lib.貝殼影像();
+	this.instance_23 = new lib.shell();
 	this.instance_23.setTransform(229.95,906.7,0.48,0.48);
 
 	this.instance_24 = new lib.CachedBmp_313();
 	this.instance_24.setTransform(230.6,907.5,0.5,0.5);
 
-	this.instance_25 = new lib.海星影像();
+	this.instance_25 = new lib.starfish();
 	this.instance_25.setTransform(105.6,859.2,0.48,0.48);
 
 	this.instance_26 = new lib.CachedBmp_312();
 	this.instance_26.setTransform(107.25,859.95,0.5,0.5);
 
-	this.instance_27 = new lib.海影像();
+	this.instance_27 = new lib.ocean();
 	this.instance_27.setTransform(0,193.9,0.48,0.48);
 
-	this.instance_28 = new lib.沙灘影像();
+	this.instance_28 = new lib.beach();
 	this.instance_28.setTransform(0,398.85,0.48,0.48);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21}]},127).to({state:[]},251).wait(1));
@@ -2858,11 +2858,11 @@ lib.properties = {
 		{src:"/static/images/quiz_dog_1/CachedBmp_307.png", id:"CachedBmp_307"},
 		{src:"/static/images/quiz_dog_1/BMP_8c696b1e_21c2_431b_b857_7d3ebf5a5716.png", id:"BMP_8c696b1e_21c2_431b_b857_7d3ebf5a5716"},
 		{src:"/static/images/quiz_dog_1/guide_img.jpg", id:"guide_img"},
-		{src:"/static/images/quiz_dog_1/橢圓1.png", id:"橢圓1"},
-		{src:"/static/images/quiz_dog_1/沙灘影像_.png", id:"沙灘影像"},
-		{src:"/static/images/quiz_dog_1/海影像_.png", id:"海影像"},
-		{src:"/static/images/quiz_dog_1/海星影像_.png", id:"海星影像"},
-		{src:"/static/images/quiz_dog_1/貝殼影像_.png", id:"貝殼影像"},
+		{src:"/static/images/quiz_dog_1/oval.png", id:"oval"},
+		{src:"/static/images/quiz_dog_1/beach.png", id:"beach"},
+		{src:"/static/images/quiz_dog_1/ocean.png", id:"ocean"},
+		{src:"/static/images/quiz_dog_1/starfish.png", id:"starfish"},
+		{src:"/static/images/quiz_dog_1/shell.png", id:"shell"},
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_1.png", id:"quiz_dog_1_atlas_1"},
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_2.png", id:"quiz_dog_1_atlas_2"},
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_3.png", id:"quiz_dog_1_atlas_3"},

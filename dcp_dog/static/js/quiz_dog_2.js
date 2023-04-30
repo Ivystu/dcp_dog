@@ -275,14 +275,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,3841,2160);
 p.nominalBounds = new cjs.Rectangle(0,0,3841,2160);
 
 
-(lib._12海邊與人打招呼 = function() {
-	this.initialize(img._12海邊與人打招呼);
+(lib._12enter = function() {
+	this.initialize(img._12enter);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4002,2251);
 
 
-(lib._21餐廳入口_0216更新標誌jpg複製 = function() {
-	this.initialize(img._21餐廳入口_0216更新標誌jpg複製);
+(lib._21enter = function() {
+	this.initialize(img._21enter);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4001,2251);
 
@@ -467,20 +467,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
 
-(lib.枕頭影像 = function() {
-	this.initialize(img.枕頭影像);
+(lib.pillow = function() {
+	this.initialize(img.pillow);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3218,371);
 
 
-(lib.橢圓1 = function() {
-	this.initialize(img.橢圓1);
+(lib.oval = function() {
+	this.initialize(img.oval);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2480,3508);
 
 
-(lib.沙發影像 = function() {
-	this.initialize(img.沙發影像);
+(lib.sofa = function() {
+	this.initialize(img.sofa);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,4001,1738);
 
@@ -555,8 +555,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,4001,1738);
 
 
 
-(lib.腳印影像 = function() {
-	this.initialize(img.腳印影像);
+(lib.footprint = function() {
+	this.initialize(img.footprint);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2317,488);
 
@@ -662,7 +662,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_40();
 	this.instance.setTransform(-961.65,-541.1,0.5,0.5);
 
-	this.instance_1 = new lib._12海邊與人打招呼();
+	this.instance_1 = new lib._12enter();
 	this.instance_1.setTransform(-961.15,-540.6,0.4803,0.4803);
 
 	this.instance_2 = new lib.CachedBmp_39();
@@ -691,7 +691,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_38();
 	this.instance.setTransform(-961.65,-541.1,0.5,0.5);
 
-	this.instance_1 = new lib._12海邊與人打招呼();
+	this.instance_1 = new lib._12enter();
 	this.instance_1.setTransform(-961.15,-540.6,0.4803,0.4803);
 
 	this.instance_2 = new lib.CachedBmp_39();
@@ -720,7 +720,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_36();
 	this.instance.setTransform(-961.65,-541.1,0.5,0.5);
 
-	this.instance_1 = new lib._12海邊與人打招呼();
+	this.instance_1 = new lib._12enter();
 	this.instance_1.setTransform(-961.15,-540.6,0.4803,0.4803);
 
 	this.instance_2 = new lib.CachedBmp_39();
@@ -746,7 +746,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib._12海邊與人打招呼();
+	this.instance = new lib._12enter();
 	this.instance.setTransform(-961.15,-540.6,0.4803,0.4803);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -795,7 +795,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(-522.3,-738.8,0.4212,0.4212);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -818,7 +818,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 圖層_1
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(-401.45,-567.85,0.3237,0.3237);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -981,7 +981,7 @@ if (reversed == null) { reversed = false; }
 
 	// 圖層_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.bf(img._21餐廳入口_0216更新標誌jpg複製, null, new cjs.Matrix2D(0.48,0,0,0.48,-1259.1,-439.9)).s().p("AmjG6IhYmFQAsgXAcgiQCrjYCbjkIACgJIAIgIIABACIABgCIAAAEIAKAPIgCAAIGBEGIBDgMIBxAxIAgHEIgYAoItTB5g");
+	this.shape.graphics.bf(img._21enter, null, new cjs.Matrix2D(0.48,0,0,0.48,-1259.1,-439.9)).s().p("AmjG6IhYmFQAsgXAcgiQCrjYCbjkIACgJIAIgIIABACIABgCIAAAEIAKAPIgCAAIGBEGIBDgMIBxAxIAgHEIgYAoItTB5g");
 	this.shape.setTransform(50.8,46.575);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -1398,11 +1398,11 @@ if (reversed == null) { reversed = false; }
 
 	// MergedLayer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.bf(img._21餐廳入口_0216更新標誌jpg複製, null, new cjs.Matrix2D(0.48,0,0,0.48,-1370.3,-1003.4)).s().p("Ag2EjIgVgOQg5gnANhsIgpgjIjXgZIgugZQgBgKgFgEIgEgBQgGgLgCgKIgCgSIAOgSQABgCAFAAIAFgPIApgZIAbANIAJAAQA6gMAkgaIAKgQQARACAFgOQAFgOAIgOIAAhpIAegjQASACAIAAQBEgKAlAcIAUAFIAPAPIAABGIAJAPQALAEAFAFQAHAHAMgBQAQADAFgQQAIgYALgcQAMgCAIgIIAfgZIAZAAQA5ABAmAYQAFANAGAHQAIALABATIgKAZIAAA4IAeAZIBlAAQAFAJAOAEQAaAJAFAhIgZAsQgPgBgCALQAAAFgDAFQgRAAgCAOQgEASADAcIAPAUIAZAFIAZApIAAA3IgKAPIgVAJQg8AdhBgXIgKgKIgjgFIgPgPQgMACgKgEQgNgFgFgIIgoAAIgpAZQgCAJgGAHQgPASgWAQg");
+	this.shape.graphics.bf(img._21enter, null, new cjs.Matrix2D(0.48,0,0,0.48,-1370.3,-1003.4)).s().p("Ag2EjIgVgOQg5gnANhsIgpgjIjXgZIgugZQgBgKgFgEIgEgBQgGgLgCgKIgCgSIAOgSQABgCAFAAIAFgPIApgZIAbANIAJAAQA6gMAkgaIAKgQQARACAFgOQAFgOAIgOIAAhpIAegjQASACAIAAQBEgKAlAcIAUAFIAPAPIAABGIAJAPQALAEAFAFQAHAHAMgBQAQADAFgQQAIgYALgcQAMgCAIgIIAfgZIAZAAQA5ABAmAYQAFANAGAHQAIALABATIgKAZIAAA4IAeAZIBlAAQAFAJAOAEQAaAJAFAhIgZAsQgPgBgCALQAAAFgDAFQgRAAgCAOQgEASADAcIAPAUIAZAFIAZApIAAA3IgKAPIgVAJQg8AdhBgXIgKgKIgjgFIgPgPQgMACgKgEQgNgFgFgIIgoAAIgpAZQgCAJgGAHQgPASgWAQg");
 	this.shape.setTransform(1370.325,1003.4068);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.bf(img._21餐廳入口_0216更新標誌jpg複製, null, new cjs.Matrix2D(0.48,0,0,0.48,-1484.7,-636.7)).s().p("AhOGNQgiABgRgOQgBgLgJgDQgBAAAAAAQgBgBAAAAQgBAAAAAAQgBAAgBAAIgUgoIAAhvIAFgHIAAhEIgPgZIgjgPQgHAAgGgDQhSg0gjhkQgBgNAEgGQAWglAtgTIAjAAIAKAPIAPAFQgDAPACAEQAdAuAlAFQAJgEAAgLQABgRAFgNQgCgJgGgJQgIgLgEgQIgKgFQgCgLgCgGQgIgWgSgQIAAgUIgUgeIAAhHIAZgoIAogPIAKASQAEAIABAJQACAMAKAEQAKAGAOADQADAKAFAGQAnAtASA8IAUAKIAigFQgFgHgEgMQgkhoAohiQANgBALAFQAQAFAUABQAFAIAGAHQAYAaAPAdIAAAUQAIAFAEAJQAVArgCBAIAUAUQAKgCAGgJQANgUABgiQAIgFAEgGIAIgOQAOABAHgDQAYgMAjADIAUAVQAAAKABAKQAbCNhJBZQgOABgHAIQgNAOgGAWIAFAjIAUAZIAAAPIAUAeIAABGIgjAkIhLgFQgGgHgJgEIgPAAIgGgKIgUgKIgtAAQgIAEgGAIQgFAGgLACIgoBRIAAAUIgiAoIgjAFQgLgCgJAAg");
+	this.shape_1.graphics.bf(img._21enter, null, new cjs.Matrix2D(0.48,0,0,0.48,-1484.7,-636.7)).s().p("AhOGNQgiABgRgOQgBgLgJgDQgBAAAAAAQgBgBAAAAQgBAAAAAAQgBAAgBAAIgUgoIAAhvIAFgHIAAhEIgPgZIgjgPQgHAAgGgDQhSg0gjhkQgBgNAEgGQAWglAtgTIAjAAIAKAPIAPAFQgDAPACAEQAdAuAlAFQAJgEAAgLQABgRAFgNQgCgJgGgJQgIgLgEgQIgKgFQgCgLgCgGQgIgWgSgQIAAgUIgUgeIAAhHIAZgoIAogPIAKASQAEAIABAJQACAMAKAEQAKAGAOADQADAKAFAGQAnAtASA8IAUAKIAigFQgFgHgEgMQgkhoAohiQANgBALAFQAQAFAUABQAFAIAGAHQAYAaAPAdIAAAUQAIAFAEAJQAVArgCBAIAUAUQAKgCAGgJQANgUABgiQAIgFAEgGIAIgOQAOABAHgDQAYgMAjADIAUAVQAAAKABAKQAbCNhJBZQgOABgHAIQgNAOgGAWIAFAjIAUAZIAAAPIAUAeIAABGIgjAkIhLgFQgGgHgJgEIgPAAIgGgKIgUgKIgtAAQgIAEgGAIQgFAGgLACIgoBRIAAAUIgiAoIgjAFQgLgCgJAAg");
 	this.shape_1.setTransform(1484.6697,636.7225);
 
 	this.instance = new lib.CachedBmp_27();
@@ -1625,10 +1625,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(60).call(this.frame_60).wait(43));
 
 	// whitelight
-	this.instance = new lib.橢圓1();
+	this.instance = new lib.oval();
 	this.instance.setTransform(411,1296.85,0.4697,0.4697,-90);
 
-	this.instance_1 = new lib.橢圓1();
+	this.instance_1 = new lib.oval();
 	this.instance_1.setTransform(199,90,0.8297,0.356);
 
 	this.shape = new cjs.Shape();
@@ -1778,7 +1778,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_26 = new lib.CachedBmp_40();
 	this.instance_26.setTransform(279.5,129.5,0.5,0.5);
 
-	this.instance_27 = new lib._12海邊與人打招呼();
+	this.instance_27 = new lib._12enter();
 	this.instance_27.setTransform(280,131,0.4803,0.4803);
 
 	this.instance_28 = new lib.CachedBmp_31();
@@ -1947,7 +1947,7 @@ if (reversed == null) { reversed = false; }
 		});
 		
 		_this.home_btn.on('click', function(){
-			location.href="/dcp_dog/";
+			location.href="https://dcp-test.vercel.app/";
 		});
 		
 		_this.back_quiz_btn.on('click', function(){
@@ -1970,7 +1970,7 @@ if (reversed == null) { reversed = false; }
 	this.frame_224 = function() {
 		var _this = this;
 		
-		location.href="/dcp_dog/quiz_dog_3";
+		location.href="https://dcp-dog-se.vercel.app/dcp_dog_se/quiz_dog_3/";
 	}
 
 	// actions tween:
@@ -1983,7 +1983,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.CachedBmp_1();
 	this.instance_1.setTransform(0.05,0.05,0.5,0.5);
 
-	this.instance_2 = new lib.橢圓1();
+	this.instance_2 = new lib.oval();
 	this.instance_2.setTransform(-794,1657,1,1,-90);
 	this.instance_2._off = true;
 
@@ -2136,7 +2136,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6 = new lib.腳印的複製影像();
 	this.instance_6.setTransform(249.15,33.6,0.48,0.48);
 
-	this.instance_7 = new lib.腳印影像();
+	this.instance_7 = new lib.footprint();
 	this.instance_7.setTransform(632.65,102.2,0.48,0.48);
 
 	this.instance_8 = new lib.CachedBmp_3();
@@ -2211,13 +2211,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_25 = new lib.花盆影像();
 	this.instance_25.setTransform(0,247.65,0.48,0.48);
 
-	this.instance_26 = new lib.枕頭影像();
+	this.instance_26 = new lib.pillow();
 	this.instance_26.setTransform(375.85,475.2,0.48,0.48);
 
 	this.instance_27 = new lib.CachedBmp_7();
 	this.instance_27.setTransform(378.4,476.95,0.5,0.5);
 
-	this.instance_28 = new lib.沙發影像();
+	this.instance_28 = new lib.sofa();
 	this.instance_28.setTransform(0,0,0.48,0.48);
 
 	this.instance_29 = new lib.CachedBmp_6();
@@ -2255,14 +2255,14 @@ lib.properties = {
 		{src:"/static/images/quiz_dog_2/CachedBmp_3.png", id:"CachedBmp_3"},
 		{src:"/static/images/quiz_dog_2/CachedBmp_2.png", id:"CachedBmp_2"},
 		{src:"/static/images/quiz_dog_2/CachedBmp_1.png", id:"CachedBmp_1"},
-		{src:"/static/images/quiz_dog_2/_12海邊與人打招呼.jpg", id:"_12海邊與人打招呼"},
-		{src:"/static/images/quiz_dog_2/_21餐廳入口_0216更新標誌jpg複製.jpg", id:"_21餐廳入口_0216更新標誌jpg複製"},
+		{src:"/static/images/quiz_dog_2/_12enter.jpg", id:"_12enter"},
+		{src:"/static/images/quiz_dog_2/_21enter.jpg", id:"_21enter"},
 		{src:"/static/images/quiz_dog_2/BMP_97971f6a_c4d3_47de_891b_d85efdda2853.png", id:"BMP_97971f6a_c4d3_47de_891b_d85efdda2853"},
 		{src:"/static/images/quiz_dog_2/guide_img.jpg", id:"guide_img"},
-		{src:"/static/images/quiz_dog_2/枕頭影像_.png", id:"枕頭影像"},
-		{src:"/static/images/quiz_dog_2/橢圓1.png", id:"橢圓1"},
-		{src:"/static/images/quiz_dog_2/沙發影像_.png", id:"沙發影像"},
-		{src:"/static/images/quiz_dog_2/腳印影像_.png", id:"腳印影像"},
+		{src:"/static/images/quiz_dog_2/pillow.png", id:"pillow"},
+		{src:"/static/images/quiz_dog_2/oval.png", id:"oval"},
+		{src:"/static/images/quiz_dog_2/sofa.png", id:"sofa"},
+		{src:"/static/images/quiz_dog_2/footprint.png", id:"footprint"},
 		{src:"/static/images/quiz_dog_2/quiz_dog_2_atlas_1.png", id:"quiz_dog_2_atlas_1"},
 		{src:"/static/images/quiz_dog_2/quiz_dog_2_atlas_2.png", id:"quiz_dog_2_atlas_2"},
 		{src:"/static/images/quiz_dog_2/quiz_dog_2_atlas_3.png", id:"quiz_dog_2_atlas_3"},
