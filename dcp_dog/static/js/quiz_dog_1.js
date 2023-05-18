@@ -2876,7 +2876,7 @@ lib.properties = {
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_10.png", id:"quiz_dog_1_atlas_10"},
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_11.png", id:"quiz_dog_1_atlas_11"},
 		{src:"/static/images/quiz_dog_1/quiz_dog_1_atlas_12.png", id:"quiz_dog_1_atlas_12"},
-		{src:"sounds/dog_try0427mp3cutnetwav.mp3", id:"dog_try0427mp3cutnetwav"},
+		{src:"/static/sounds/dog_try0427mp3cutnetwav.mp3", id:"dog_try0427mp3cutnetwav"},
 		{src:"/static/sounds/trainwav.mp3", id:"trainwav"},
 		{src:"/static/sounds/wave_sound_2_16wav.mp3", id:"wave_sound_2_16wav"}
 	],
